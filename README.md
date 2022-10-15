@@ -1,4 +1,4 @@
-#Read me:
+# Group-wise Reinforcement Feature Generation for Optimal and Explainable Representation Space Reconstruction
 ## Basic info:
 This is the release code for :
 [Group-wise Reinforcement Feature Generation for Optimal and Explainable Representation Space Reconstruction](https://arxiv.org/pdf/2205.14526) 
@@ -18,8 +18,9 @@ Recommended Bib:
   year={2022}
 }
 ```
+***
 ## Paper Abstract
-```
+
 Representation (feature) space is an environment where data points are vectorized,  distances are computed, patterns are characterized, and geometric structures are embedded. Extracting a good representation space  is critical to address the curse of dimensionality, improve model generalization, overcome data sparsity, and increase the availability of classic models. 
 Existing literature, such as feature engineering and representation learning, is limited in achieving full automation (e.g., over heavy reliance on intensive labor and empirical experiences), explainable explicitness (e.g., traceable reconstruction process and explainable new features), and flexible optimal (e.g., optimal feature space reconstruction is not embedded into downstream tasks).  
 Can we simultaneously address the automation, explicitness, and optimal challenges in representation space reconstruction for a machine learning task?
@@ -28,7 +29,7 @@ We reformulate representation space reconstruction into an interactive process o
 We develop a cascading reinforcement learning method that leverages three cascading Markov Decision Processes to learn optimal generation policies to automate the selection of features and operations and the feature crossing.
 We design a group-wise generation strategy to cross a feature group, an operation, and another feature group to generate new features and find the strategy that can enhance exploration efficiency and augment reward signals of cascading agents.
 Finally, we present extensive experiments to demonstrate the effectiveness, efficiency, traceability, and explicitness of our system.
-```
+***
 
 
 ## How to run:
