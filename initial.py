@@ -47,7 +47,7 @@ def init_param():
     # -d using euclidean distance as feature distance metric in the M-clustering of GRFG
     # -b -u Third, we developed GRFG−𝑢 and GRFG−𝑏 by using random in the two feature generation scenarios
     parser.add_argument('--ablation-mode', type=str, default='')
-    parser.add_argument('--distance', type=str, default='mi')
+    parser.add_argument('--out-put', type=str, default='.')
 
     # priority experiment replay related parameter
     # parser.add_argument('--per-alpha', type=float, default=0.7)
