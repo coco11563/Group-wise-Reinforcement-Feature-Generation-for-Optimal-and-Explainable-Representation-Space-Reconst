@@ -27,6 +27,7 @@ class RandomClusterReplay(Replay):
         super().__init__(size, batch_size, device)
         self.memory = np.zeros((self.MEMORY_CAPACITY, state_shape * 2 + state_shape *
                                 2 + op_dim * 2 + 1))
+        self.STATE_DIM = state_dim
         if self.cuda_info:
             self.mem1 = self.mem1.cuda()
             self.mem2 = self.mem2.cuda()
@@ -56,8 +57,8 @@ class RandomClusterReplay(Replay):
 class RandomOperationReplay(Replay):
     def __init__(self, size, batch_size, state_dim, device):
         super().__init__(size, batch_size, device)
-        self.STATE_DIM = state_dim
         self.memory = np.zeros((self.MEMORY_CAPACITY, state_dim * 2 + 2))
+        self.N_STATES = state_dim
 
     def store_transition(self, mems):
         s1, op, r, s2 = mems
