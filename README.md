@@ -11,7 +11,7 @@ Dongjie Wang, Yanjie Fu, Kunpeng Liu, Xiaolin Li, Yan Solihin. Group-wise Reinfo
 
 Recommended Bib:
 ```
-@article{wang2022group,
+@InProceedings{wang2022group,
   title={Group-wise Reinforcement Feature Generation for Optimal and Explainable Representation Space Reconstruction},
   author={Wang, Dongjie and Fu, Yanjie and Liu, Kunpeng and Li, Xiaolin and Solihin, Yan},
   journal={The 28-th ACM SIGKDD Conference},
