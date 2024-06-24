@@ -28,6 +28,7 @@ class RandomClusterReplay(Replay):
         self.memory = np.zeros((self.MEMORY_CAPACITY, state_shape * 2 + state_shape *
                                 2 + op_dim * 2 + 1))
         self.STATE_DIM = state_dim
+        self.ACTION_DIM = op_dim
         if self.cuda_info:
             self.mem1 = self.mem1.cuda()
             self.mem2 = self.mem2.cuda()
