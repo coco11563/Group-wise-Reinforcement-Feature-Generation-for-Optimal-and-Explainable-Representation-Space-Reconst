@@ -4,6 +4,8 @@ This is the release code for :
 [Group-wise Reinforcement Feature Generation for Optimal and Explainable Representation Space Reconstruction](https://arxiv.org/pdf/2205.14526) 
 which is accepted by SIGKDD 2022!
 
+See also: Our code repo ([code](https://github.com/coco11563/Traceable_Automatic_Feature_Transformation_via_Cascading_Actor-Critic_Agents)), a Actor-Critic version feature transformation
+
 Recommended ref:
 ```
 Dongjie Wang, Yanjie Fu, Kunpeng Liu, Xiaolin Li, Yan Solihin. Group-wise Reinforcement Feature Generation for Optimal and Explainable Representation Space Reconstruction. The 28-th ACM SIGKDD Conference, 2022
@@ -29,7 +31,7 @@ KDD extended paper:
   year={2024},
   publisher={ACM New York, NY}
 }
-Following Actor-Critic RL Framework paper: ([code](https://github.com/coco11563/Traceable_Automatic_Feature_Transformation_via_Cascading_Actor-Critic_Agents))
+Following Actor-Critic RL Framework paper: 
 @inproceedings{xiao2023traceable,
   title={Traceable automatic feature transformation via cascading actor-critic agents},
   author={Xiao, Meng and Wang, Dongjie and Wu, Min and Qiao, Ziyue and Wang, Pengfei and Liu, Kunpeng and Zhou, Yuanchun and Fu, Yanjie},
